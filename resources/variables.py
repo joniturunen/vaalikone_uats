@@ -11,16 +11,15 @@ DICT__DISTRICTCANDIDATES = OrderedDict(
 URL = "https://vaalikone.yle.fi/eduskuntavaali2019/?lang=en"
 BROWSE_CANDIDATES = "https://vaalikone.yle.fi/eduskuntavaali2019/ehdokkaat?lang=en"
 
-# Xpath to different elements on the page
-MUNICIPALITY_SEARCH = "/html/body/div/main/div[1]/section/div[2]"
-MUNICIPALITY_INPUT = "/html/body/div/main/div[1]/section/div[2]/input"
-MUNICIPALITY_RESULT = "/html/body/div/main/div[1]/section/div[2]/div/a"
+# Xpath to different elements on the pages
+MUNICIPALITY_SEARCH = "xpath:/html/body/div/main/div[1]/section/div[2]"
+MUNICIPALITY_INPUT = "xpath:/html/body/div/main/div[1]/section/div[2]/input"
+MUNICIPALITY_RESULT = "xpath:/html/body/div/main/div[1]/section/div[2]/div/a"
 
 DISTRICT_MENU = "xpath:/html/body/div/main/div[1]/div/div[2]/div[1]/p"
-DISTRICT_SELECT = "<a href=""> ${DISTRICT}</a>"
-CANDIDATE_PATH = "/html/body/div/main/div[1]/div/div[3]/div[1]/div/div/div[1]/section/div/div[1]/h3/a"
+CANDIDATE_PATH = "xpath:/html/body/div/main/div[1]/div/div[3]/div[1]/div/div/div[1]/section/div/div[1]/h3/a"
 
-START_BUTTON = "/html/body/div/main/div[1]/section/button"
+START_BUTTON = "xpath:/html/body/div/main/div[1]/section/button"
 
 
 # Strings to look for on a page
