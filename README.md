@@ -11,11 +11,13 @@ There are two test cases [groupx-1](testcase_groupx-1.robot) and [groupx-2](test
 ### testcase groupx-1
 
 **Test Title:** Municipality selection creates correct value for user.
+
 **Description:** Test the municipality selection text field using search word filtering and validate a key value is set for user with selected municipality.
 
 ### testcase groupx-2
 
 **Test Title:** Candidate filtering by districts.
+
 **Description:** Use candidate browse page and select Electoral district with predefined keywords and search criteria.
 
 ## How to run test cases?
