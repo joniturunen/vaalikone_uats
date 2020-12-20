@@ -8,10 +8,10 @@ Test that municipality selection creates a session storage values
         log   ${municipality}
         Open browser   ${URL}
         Wait until page contains  ${WELCOME}
-        Click element   xpath:${MUNICIPALITY_SEARCH}
-        Input text   xpath:${MUNICIPALITY_INPUT}   ${municipality}
-        Click element   xpath:${MUNICIPALITY_RESULT}
-        Click element   xpath:${START_BUTTON}
+        Click element   ${MUNICIPALITY_SEARCH}
+        Input text   ${MUNICIPALITY_INPUT}   ${municipality}
+        Click element   ${MUNICIPALITY_RESULT}
+        Click element   ${START_BUTTON}
         Wait until page contains   ${QUESTIONS_START}
         ${sessionStorageKeys}   Get Storage Keys   sessionStorage
         Log   ${sessionStorageKeys}   INFO
